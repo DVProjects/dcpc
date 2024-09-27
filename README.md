@@ -1,9 +1,8 @@
 # Davide's C+ compiler
-Compiler for my own 'dialect' of the c language.
-The c+ language main idea is to give c OOP features without getting too high-level with the language.
-This compiler is built to receive c+ files, pre-process them and compile them to standard c files (.i).
-C+ files are passed through the c pre-processor (cpp) to avoid having to also pass headers to the compiler.
+The C+ language's main idea is to give C OOP features without getting too high-level with the language.
+This compiler is built to receive C+ files, preprocess them, and transpile them to standard C files (.i).
+C+ files are passed through the C preprocessor (cpp) to avoid having to pass headers to the compiler.
 
 Compilation process:
-dcpc file.c+
-gcc file.i
+    dcpc file.c+
+    gcc file.i
