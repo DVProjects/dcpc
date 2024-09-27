@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+class Test {
+  class Test init(void){
+    return (class Test){.msg = "Hello world!"};
+  }
+  char *msg;
+  void printmsg(){ printf(this->msg);}
+}
+
+int main(void){
+  printf("Hello world");
+}
