@@ -9,5 +9,7 @@ class Test {
 }
 
 int main(void){
-  printf("Hello world");
+  class Test t;
+  t.init();
+  t.printmsg();
 }
